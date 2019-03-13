@@ -3,7 +3,7 @@ import argparse
 
 def get_arguments():
     parser = argparse.ArgumentParser()
-
+    #基础参数
     # Basic parameters
     parser.add_argument('--epoch', type=int, default=300)
     parser.add_argument('--batchsize', type=int, default=8)
